@@ -118,7 +118,7 @@ E, pX, pY, pZ, mass, PID, particle name. Note not all PIDs have a 'particle name
 
 Note: The precise N branching fractions in the ~ 0.5 -  2 GeV mN window are subject to significant uncertainties, but the actual effect on DV reconstruction efficiencies should not be major, you can estimate it by comparing efficiency at 0.5 vs 2 GeV. Since reconstruction efficiency should increase roughly monotonically with mass, the difference between the start and end of the hadronic uncertainty window should give an idea of the relative uncertainty within the window. 
 
-
+Note: these decay files INCLUDE the invisible decays, e.g. decays to only active neutrinos or only pi0s. Therefore, if you feed these files directly to the LLP gun, you will NOT have to include any Br(vis) renormalization factor in the final number of observed LLP events. For computational efficiency, you might make versions of these files that only include the decays with charged final states: in that case, adjust all the weights down by Br(vis), the fraction of decays with charged final states.
 
 
 
