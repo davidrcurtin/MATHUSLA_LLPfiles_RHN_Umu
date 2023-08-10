@@ -122,7 +122,7 @@ Note: these decay files INCLUDE the invisible decays, e.g. decays to only active
 
 
 
-USAGE FOR MATHUSLA GEANT SIMULATIONS
+USAGE FOR GEANT SIMULATIONS
 =======================================
 
 Select some LLP mass mN to study, say mN = 3.08517 GeV. 
